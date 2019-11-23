@@ -1,0 +1,116 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif , Verdana;
+    font-size: 16px;
+}
+.cover {
+    background: url('../img/city1.jpg') no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.navigation .social-icons {
+    margin: 0 -9px 0 -14px;
+}
+.navigation {
+    background-color: #000000;
+    opacity: .6;
+    height: 85px;
+    margin: 0 -13px 0 -15px;
+}
+.main-header a img,h2{
+    display: inline-block;
+}
+.main-header h2 {
+    padding-top: 20px;
+    color: #51d8dc;
+}
+#navItems ul {
+    margin-top: -90px;
+    margin-right: 25px;
+}
+#navItems li .nav-link {
+    color: #fff;
+}
+#navItems ul li .nav-link:hover {
+    color: #51d8dc;
+    text-decoration: underline;
+}
+.case-area .pay {
+    float: right;
+    margin-top: -150px;
+    padding-left: 100px;
+    margin-right: -50px;
+}
+.case-area h3{
+    text-align: center;
+}
+.case-area .vehicle, .pay {
+    margin-left: 25%;
+}
+.section-a h3{
+    text-align: center;
+    margin-top: -15px;
+}
+.section-a .card{
+    display: inline-block;
+    width: 365px;
+}
+.fixed-back-section {
+    background: url('../img/back-svc.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: solid 3px #51d8dc;
+}
+.contact-section h3{
+    text-align: center;
+}
+.contact-section  .contact2 , .contact3{
+    float:right;
+}
+.contact-section .contact1 {
+    padding-left: 150px;
+}
+.contact-section .contact2 {
+    margin-right: -160px;
+    margin-top: -150px;
+    padding-left: 190px;
+}
+.contact-section .contact3 {
+    margin-right: -270px;
+    padding-left: 210px;
+    margin-top: -150px;
+}
+.contact-section .contact2, .contact2 , .contact3 {
+    margin-left: 90px;
+}
+
+.footer {
+    background-color: #1a2f41;
+    color: #fff;
+    margin-bottom: -20px;
+}
+.footer h4{
+    text-align: center;
+    padding-top: 15px;
+}
+.footer p {
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.footer .footer-icons {
+    margin-left: 35%;
+} 
+.footer .footer-icons li{
+    display: inline-block;
+    padding-right: 30px;
+} 
+.line-footer{
+    background-color: #fff;
+}
+.cover .cover-word .cover-head{
+    color: #fff;
+}
+.cover .cover-word .cover-para {
+    color: #fff;
+}

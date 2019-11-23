@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMaster.master.cs" Inherits="Bus_Tickets.adminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+       <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/adMasterDesign.css" rel="stylesheet" />
+         <link href="css/pmMasterDesign.css" rel="stylesheet" />
+
+        <div class="container-fluid main-nav">
+            <link href="css/adMasterDesign.css" rel="stylesheet" />
+            <div class="social-links">
+
+            </div>
+        <div class="main-header">
+            <h2>Administrator</h2>
+            <a href="#"><img src="img/bus1.png" class="img-responsive img-circle" width="90" height="80"/></a>
+        </div>
+            <div class="navbar nav-ad navbar-expand-lg navbar-light" role="navigation">
+                <a href="pmHome.aspx"><img src="img/home2F.png"  height="40" width="40" class="img-responsive img-circle"/></a>
+                <button class="navbar-toggler" type="button" data-target="#navItems" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navItems">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li><a href="adHome.aspx" class="nav-link">Home</a></li>
+                        <li><a href="adProfile.aspx" class="nav-link">Admin Profile</a></li>
+                        <!--When trying to book for passeger modal classs pops up for pass. Details-->
+                        <li class="dropup"><a href="pmHome.aspx" class="nav-link dropdown-toggle" id="#cusInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage-Customer</a>
+                            <ul id="cusInfo" class="dropdown-menu">
+                                <li><a href="adCustomer.aspx" class="dropdown-item">Customer Information</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li><a href="adCustBook.aspx" class="dropdown-item">Book for Customer</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropup"><a href="empHome.aspx"  class="nav-link dropdown-toggle" id="#empInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage-Employee</a>
+                            <ul class="dropdown-menu" id="empInfo">
+                                <li><a href="#" class="dropdown-item">Employee Information</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="adVehicle.aspx" class="nav-link">Manage-Vehicle</a></li>
+                        <li><a href="adReport.aspx" class="nav-link">Report</a></li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <p>All right Reserved &copy; 2018 Cedric.Inc</p>
+        </div>
+    </form>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

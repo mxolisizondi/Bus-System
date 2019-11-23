@@ -1,0 +1,88 @@
+﻿body {
+    background: url('../img/rd3.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+hr{
+    background: #fff;
+}
+.main-nav{
+    background-color: #000;
+    opacity: .7;
+}
+.main-nav .social-links {
+    height: 20px;
+    background-color: #2a3335;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: solid 2px #51d8dc;
+}
+.main-nav .navbar {
+    background-color: #2a3335;
+    height: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: solid 3px #51d8dc;
+}
+.main-header a img{
+    float: right;
+    margin-top: -61px;
+    margin-right: 20%;
+}
+.main-nav .main-header {
+    color: #51d8dc;
+    padding-left: 50px;
+    height: 90px;
+}
+.main-nav .main-header h2{
+    padding: 20px 0 0 50px;
+
+}
+#navItems .nav{
+    margin-right: 30%;
+    padding: 0 25px 0 25px;
+}
+#navItems .nav-link {
+    color: #fff;
+    padding: 0 25px 0 25px;
+}
+#navItems .nav-link:hover {
+color: #51d8dc;
+text-decoration: underline;
+}
+.footer {
+    height: 50px;
+    background-color: #2a3335;
+    opacity: .7;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: solid 2px #51d8dc;
+    border-top: solid 2px #51d8dc;
+}
+.footer p {
+    text-align: center;
+    color: #51d8dc;
+    padding-top: 10px;
+}
+/*navs for admin*/
+#navItems-ad .nav {
+    margin-right: 30%;
+    padding: 0 25px 0 25px;
+}
+
+#navItems-ad .nav-link {
+    color: #fff;
+    padding: 0 25px 0 25px;
+}
+
+#navItems-ad .nav-link:hover {
+    color: #51d8dc;
+    text-decoration: underline;
+}
+.main-nav .nav-ad {
+    background-color: #2a3335;
+    height: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: solid 3px #51d8dc;
+}
